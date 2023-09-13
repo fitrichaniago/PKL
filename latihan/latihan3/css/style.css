@@ -1,0 +1,23 @@
+body{
+	display: flex;
+	flex: wrap;
+	gap: 15px;
+	justify-content: center;
+}
+.gambar{
+	width: 48%;
+	position: relative;
+	background-color: aqua;
+}
+.gambar p{
+	color: white;
+	margin: 0;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-30%)translate(-30%);
+	color: black;
+	font-weight: 700;
+	font-size: 25px;
+	font-family: sans-serif;
+}

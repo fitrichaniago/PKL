@@ -1,0 +1,42 @@
+.orangtua{
+	background-color: aqua;
+	position: relative;
+	padding: 50px;
+	text-align:center ;
+	margin: 220px;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.sifatanak{
+	background-color: grey;
+	position: absolute;
+	padding: 5px;
+	margin: 0;
+}
+.anak7{
+	top: 0;
+    left:0;
+/*    right:;*/
+	
+}
+.anak8{
+	top: 0;
+/*	left:;*/
+    right: 0;
+	
+}
+.anak9{
+/*	top: ;*/
+/*    left:;*/
+    right:0;
+	bottom: 0;
+}
+.anak10{
+/*	top: 0;*/
+	left: 0;
+/*    right: ;*/
+	bottom:0 ;
+}
