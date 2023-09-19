@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		.orangtua{
+			background-image: linear-gradient(to top,rgba(0,0,0,0.4),#66d9e8),url(https://i.pinimg.com/564x/ab/3e/8f/ab3e8f733e83a98d4dbdee19226eeffa.jpg);
+			background-size: cover;
+			height: 900px;
+			text-align: center;
+			margin-bottom: 50px;
+		}
+		.navigasi {
+			display: flex;
+			justify-content: space-around;
+			gap:17px;
+			font-size: 45px;
+			padding-top: 15px;
+		}
+		a{
+			color: white;
+		}
+        p{
+        	text-align: center;
+        	margin-bottom: 50px;
+         	padding-right: 40px;
+        }
+		h4{
+          text-align: center;
+          font-size: 25px;
+          padding-top: 30px;
+          margin-bottom: 80px;
+		}
+		button{
+			padding:20px 50px;
+			margin-bottom: 10px;
+			background: transparent;
+			animation: ubahwarnaborder 3s infinite;
+		}
+		h3,h,h2{
+			text-align: center;
+			color: white
+		}
+		body{
+			background-color: black;
+		}
+		.orangtua2{
+/*			padding: 0px 50px;*/
+/*			background-color: black;*/
+/*			height: 700px;*/
+		}
+		.anak1{
+			margin-top: 50px;
+			text-align: center;
+			font-size: 17px;
+		}
+		.anak1 h3{
+			margin-bottom: 20px;
+		}
+		.gambar{
+			margin: 0 70px;
+			justify-content: centre;
+			display: flex;
+			gap: 25px;
+			padding-left: 200px;
+			margin-top: 20px;
+		}
+		.gambar1{
+			width: 300px;
+			height: 300px;
+			margin-bottom: 20px;
+			position: relative;
+			background-position: center;
+			border-radius: 8px;
+/*			border: 1px solid white;*/
+/*			box-shadow: 0 0 10 0 blue;*/
+            box-shadow: 0 0 0 1px blue,0 0 15px 0 blue;
+			background-image: linear-gradient(to top,rgba(0,0,0,0.4),#66d9e8),url(https://i.pinimg.com/236x/5b/7c/8b/5b7c8b778e3a1203c522b53ea8c89cbf.jpg);
+			animation: ubahwarnaborder 3s infinite;
+		}
+		@keyframes ubahwarnaborder{
+				30%{
+/*					border: 1px solid blue;*/					
+/*                    box-shadow: 0 0 0 5px blue;*/
+                    box-shadow: 0 0 0 1px blue,0 0 35px 0 blue;
+					}
+				60%{
+					box-shadow: 0 0 0 1px yellow,0 0 35px 0 yellow;
+				}
+		}
+		.gambar2{
+			width: 300px;
+			height: 300px;
+			margin-bottom: 20px;
+			position: relative;
+			background-position: center;
+			border-radius: 8px;
+			border: 1px solid white;
+			box-shadow: 0 0 10 0 blue;
+			background-image: linear-gradient(to top,rgba(0,0,0,0.4),#66d9e8),url(https://i.pinimg.com/236x/5b/7c/8b/5b7c8b778e3a1203c522b53ea8c89cbf.jpg);
+			animation: ubahwarnaborder 3s infinite;
+		}
+		.gambar3{
+			width: 300px;
+			height: 300px;
+			margin-bottom: 20px;
+			background-position: center;
+			border-radius: 8px;
+			position: relative;
+			border: 1px solid white;
+			box-shadow: 0 0 10 0 blue;
+			background-image: linear-gradient(to top,rgba(0,0,0,0.4),#66d9e8),url(https://i.pinimg.com/236x/5b/7c/8b/5b7c8b778e3a1203c522b53ea8c89cbf.jpg);
+			animation: ubahwarnaborder 3s infinite;
+		}
+		.gambar1 h2,.gambar2 h2,.gambar3 h2{
+			position: absolute;
+			top: 20px;
+			left: 0;
+			width: 100%;
+		}
+		.gambar1 p,.gambar2 p,.gambar3 p{
+			position: absolute;
+			bottom: 10px;
+			margin: 0;
+			color: white;
+			padding-left: 10px;
+		}
+		.r p,.r h4{
+			color: white;
+			padding-top: 
+		}
+		.g{
+			margin: 0 70px;
+			justify-content: centre;
+			display: flex;
+			gap: 25px;
+			margin-top: 20px;
+		}
+		.d{
+			width: 300px;
+			height: 300px;
+			margin-bottom: 20px;
+			background-position: center;
+			border-radius: 8px;
+			position: relative;
+			border: 1px solid peachpuff;
+			box-shadow: 0 0 10 0 yellow;
+			background-image: linear-gradient(to top,rgba(0,0,0,0.4),#66d9e8),url(https://i.pinimg.com/236x/5b/7c/8b/5b7c8b778e3a1203c522b53ea8c89cbf.jpg);
+			animation: ubahwarnaborder 3s infinite;
+		}
+		.y{
+			width: 300px;
+			height: 300px;
+			margin-bottom: 20px;
+			background-position: center;
+			border-radius: 8px;
+			border: 1px solid peachpuff;
+			box-shadow: 0 0 10 0 blue;
+			background-image: linear-gradient(to top,rgba(0,0,0,0.4),#66d9e8),url(https://i.pinimg.com/236x/5b/7c/8b/5b7c8b778e3a1203c522b53ea8c89cbf.jpg);
+			animation: ubahwarnaborder 3s infinite;
+		}
+		.flexs {
+			display: flex;
+			justify-content: center;
+			gap: 30px;
+
+		}
+		.d p,.y p{
+			 top: 0px;
+			left: 0;
+			width: 100%;
+			font-weight: bold;
+		}		
+	</style>
+</head>
+<body>
+	<div class="orangtua">
+		<div class="navigasi">			
+		<a href="#">kiri</a>
+		<i class="fa-solid fa-globe"></i>
+		<a href="#">kanan</a>
+		</div>
+		<h4>pleasure yourself with this art</h4>
+		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		   consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		   cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		   proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+		   <button>join us now</button>
+	</div>
+	<div class="orangtua2">
+		<div class="anak1">
+			<h3> eksplore out art</h3>
+			<h>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h>
+			</div>
+		<div class="gambar">
+			<div class="gambar1">
+				<h2>paris</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+			</div>
+			<div class="gambar2">
+				<h2>paris</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p> 
+			</div>
+			<div class="gambar3">
+				<h2>paris</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+			</div>
+		</div>
+	</div>
+	<div class="g">
+		<div class="t">
+			<div class="r">
+				<h4>we do art battle though</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+			</div>
+			<div class="flexs">	
+				<div class="d">	
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. </p>
+				</div>
+				<div class="y">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.</p>
+				</div>
+				<div class="k">
+					<p>X</p>
+				</div>
+			</div>
+
+	</div>
+<script src="https://kit.fontawesome.com/0ba6cce1e3.js" crossororigin="anonymous"></script>
+	    
+</body>
+</html>
