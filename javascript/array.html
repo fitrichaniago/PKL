@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>array</title>
+</head>
+<body>
+	<script type="text/javascript">
+		let dataSiswa= 
+		[
+			["syahdan",18,"medan"],
+			["reyhan",25,"aceh"],
+			["filzdah",12,"pku"],
+			["anaksana",45,"plmbng"],
+			["fitri",16,"medansekitar"]
+		];
+		// console.log(dataSiswa[4][2]);
+		// hai nama saya $datasiswa->nama umur $datasiswa tinggal di
+		// console.log(`hai ${dataSiswa[0][0]},umur ${dataSiswa[0][1]}tahun,tinggal di ${dataSiswa[0][2]}`)
+		// console.log(`hai ${dataSiswa[1][0]},umur ${dataSiswa[1][1]}tahun,tinggal di ${dataSiswa[1][2]}`)
+		// console.log(`hai ${dataSiswa[2][0]},umur ${dataSiswa[2][1]}tahun,tinggal di ${dataSiswa[2][2]}`)
+		// console.log(`hai ${dataSiswa[3][0]},umur ${dataSiswa[3][1]}tahun,tinggal di ${dataSiswa[3][2]}`)
+		// console.log(`hai ${dataSiswa[4][0]},umur ${dataSiswa[4][1]}tahun,tinggal di ${dataSiswa[4][2]}`)
+
+
+		const arraySiswa = [
+        [
+    	"Ardi",
+    	18,
+    	"Indonesia",
+    	"XII-A",
+    	["membaca", "berenang", "menulis"],
+   	 	[90, 85, 88],
+    	["apel", "pisang", "jeruk"],
+  		],
+  		[
+    	"Urdu",
+    	17,
+    	"Belanda",
+    	"XII-B",
+    	["membaca", "berenang", "menulis", "menonton"],
+    	[90, 85, 88, 95],
+    	["apel", "pisang", "jeruk", "semangka"],
+  		],
+  		[
+    	"Irdu",
+    	20,
+    	"Greenland",
+    	"XII-C",
+    	["main game", "menulis", "menonton"],
+    	[70, 65, 58, 95],
+    	["apel"],
+  	],
+	];
+// tugasnya buat kalimat dibawah ini
+// Nama Saya $varNama, Saya Berumur $varUmur tahun, Saya Tinggal di $varTempatTinggal, Hobi Saya ialah $varHobi, dan Saya berada pada kelas $varKelas, nilai rata rata saya ialah $varRata, Makanan Favorit saya ialan $varMakanan
+        console.log(`Nama Saya ${arraySiswa[0][0]},Saya Berumur ${arraySiswa[0][1]}tahun,Saya tinggal di ${arraySiswa[0][2]},hobi saya ${arraySiswa[0][4]}, dan saya berada pada kelas ${arraySiswa[0][3]},nilai rata rata saya ialah ${(arraySiswa[0][5][0]+arraySiswa[0][5][1]+arraySiswa[0][5][2])/3},makanan favorit saya ialah ${arraySiswa[0][6]}`)
+
+        console.log(`Nama Saya ${arraySiswa[1][0]},Saya Berumur ${arraySiswa[1][1]}tahun,saya tinggal di ${arraySiswa[1][2]},hobi saya ${arraySiswa[1][4]},dan saya berada pada kelas ${arraySiswa[1][3]},nilai rata rata saya ialah ${(arraySiswa[1][5][0]+arraySiswa[1][5][1]+arraySiswa[1][5][2]+arraySiswa[1][5][3])/4},makanan favorit saya ialah ${arraySiswa[1][6]}`)
+
+        console.log(`Nama Saya ${arraySiswa[2][0]},saya Berumur ${arraySiswa[2][1]}tahun,saya tinggal di ${arraySiswa[2][2]},hobi saya ${arraySiswa[2][4]},dan saya berada pada kelas ${arraySiswa[2][3]},nilai rata rata saya ialah ${(arraySiswa[2][5][0]+arraySiswa[2][5][1]+arraySiswa[2][5][2]+arraySiswa[2][5][3])/4},makanan favorit saya ialah ${arraySiswa[2][6]}`)
+
+	</script>
+
+</body>
+</html>
