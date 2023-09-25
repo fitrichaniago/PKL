@@ -8,16 +8,20 @@
    height: 100vh;
 
 }
+.img1 a:first-child{
+/*	margin-left: 100px;*/
+}
 .img1 a{
-   margin-left: 600px;
-   text-align: center;
+/*   margin-left: 100px;*/
+/*   text-align: center;*/
    padding-top: 30px;
+   margin-right: 10px;
 }
 a{
-	font-size: 35px;
+	font-size: 25px;
 	color: black;
 	text-decoration: none;
-	border-radius: 40px;
+/*	border-radius: 40px;*/
 }
 .ortu1{
 	display: flex;
@@ -110,7 +114,36 @@ p,button{
 hr{
 	height: 5px;
 	background-color: white;
-	width: 500px;
+	width: 100px;
 	margin: 0 auto;
 	text-align: center;
+}
+@media(max-width:644px){
+	.img{
+		
+		width: 100%;
+	}
+	a{
+		margin-left: 10px;
+		padding-right: 30px;
+		padding-left: 50px;
+	}
+	.w img{
+		margin-right: 150px;
+		border-radius: 25px;
+	}
+	.a img{
+		margin-right: 150px;
+	}
+	.b img{
+		margin-right: 150px;
+	}
+	button{
+		margin-right: 50px;
+	}
+	.text{
+		padding: 81px;
+	}
+
+
 }

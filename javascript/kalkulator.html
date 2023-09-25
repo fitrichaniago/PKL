@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>latihan</title>
+	<style type="text/css">
+	    *{
+	    	box-sizing: border-box;
+	    }	
+	    p{
+           padding: 5px 5px;
+           border: 1px solid black;
+           font-size: 10px;
+           width: 100%;
+           color: black;
+           font-weight: bold;
+	    }
+	    body > div button{
+	    	width: 30%;
+	    	height: 50px;
+	    	font-size: 20px;
+	    	font-weight: bold;
+	    }
+	    body > div{
+	    	width: 30%;
+	    	background-color: azure;
+	    	padding: 20px;
+	    }
+	    div > div{
+	    	display: flex;
+	    	justify-content: center;
+	    	align-items: center;
+	    	gap: 5px;
+	    	margin-bottom: 5px;
+	    }
+	     body{
+	    	margin: 0;
+	    	display: flex;
+	    	justify-content: center;
+	    	align-items: center;
+	    	height: 100vh;
+	    	background-image: linear-gradient(to bottom right,purple,red,blue);
+	    }
+	</style>
+</head>
+<body>
+   <div>
+   	<div>
+   		<p class="hitungan">masukkan angka</p>
+   	</div>
+   	<div>
+   		<button class="nav1">1</button>
+   		<button class="nav2">2</button>
+   		<button class="nav3">3</button>
+   	</div>
+   	<div>
+   		<button class="nav4">4</button>
+   		<button class="nav5">5</button>
+   		<button class="nav6">6</button>
+   </div>
+   <div>
+   		<button class="nav7">7</button>
+   		<button class="nav8">8</button>
+   		<button class="nav9">9</button>
+   </div>
+   <div>
+   	  	<button class="operatorTambah">+</button>
+   		<button class="nav0">0</button>
+   		<button class="operatorSamaDengan">=</button>
+   </div>
+   <script type="text/javascript">
+   	let angka1;
+   	let angka2;
+   	let angka3;
+   	let angka4;
+   	let angka5;
+   	let angka6;
+   	let angka7;
+   	let angka8;
+   	let angka9;
+   	const hitungan = document.querySelector(".hitungan");
+   	const nav0 = document.querySelector(".nav0");
+   	const nav1 = document.querySelector(".nav1");
+   	const nav2 = document.querySelector(".nav2");
+   	const nav3 = document.querySelector(".nav3");
+   	const nav4 = document.querySelector(".nav4");
+   	const nav5 = document.querySelector(".nav5");
+   	const nav6 = document.querySelector(".nav6");
+   	const nav7 = document.querySelector(".nav7");
+   	const nav8 = document.querySelector(".nav8");
+   	const nav9 = document.querySelector(".nav9");
+   
+   	nav1.addEventListener("click", function (e) {
+   		if (angka1 === undefined) {
+   			angka1 ="1";
+   		} else {
+   			angka1 +="1";
+   		}
+   		hitungan.textContent = angka1;
+   	});
+   	nav2.addEventListener("click", function (e) {
+   		if (angka2 === undefined) {
+   			angka2 ="2";
+   		} else {
+   			angka2 +="2";
+   		}
+   		hitungan.textContent = angka2;
+   	});
+   	nav3.addEventListener("click", function (e) {
+   		if (angka3 === undefined) {
+   			angka3 ="3";
+   		} else {
+   			angka3 +="3";
+   		}
+   		hitungan.textContent = angka3;
+   	});
+    nav4.addEventListener("click", function (e) {
+   		if (angka4 === undefined) {
+   			angka4 ="4";
+   		} else {
+   			angka4 +="4";
+   		}
+   		hitungan.textContent = angka4;
+   	});
+   	nav5.addEventListener("click", function (e) {
+   		if (angka5 === undefined) {
+   			angka5 ="5";
+   		} else {
+   			angka5 +="5";
+   		}
+   		hitungan.textContent = angka5;
+   	});
+   	nav6.addEventListener("click", function (e) {
+   		if (angka6 === undefined) {
+   			angka6 ="6";
+   		} else {
+   			angka6 +="6";
+   		}
+   		hitungan.textContent = angka6;
+   	});
+   	nav7.addEventListener("click", function (e) {
+   		if (angka7 === undefined) {
+   			angka7 ="7";
+   		} else {
+   			angka7 +="7";
+   		}
+   		hitungan.textContent = angka7;
+   	});
+   	nav8.addEventListener("click", function (e) {
+   		if (angka8 === undefined) {
+   			angka8 ="8";
+   		} else {
+   			angka8 +="8";
+   		}
+   		hitungan.textContent = angka8;
+   	});
+   	nav9.addEventListener("click", function (e) {
+   		if (angka9 === undefined) {
+   			angka9 ="9";
+   		} else {
+   			angka9 +="9";
+   		}
+   		hitungan.textContent = angka9;
+   	});
+   </script>
+</body>
+</html>
