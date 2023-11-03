@@ -4,61 +4,112 @@
 	<title>contact & Project</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<body>  
-    <h4>CONTACT</h4>
-    <hr>
-	<div class="contrainer">
-		<div class="box">
-			<h3>RAYHAN</h3>
-			<hr>
-			<ul>multimedia</ul>
-			<a href="https://instagram.com/ahmad_ryan02?igshid=MzRlODBiNWFlZA==">
-				<i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
-			</a>
-			<a href="mailto:ahmadryan0022@gmail.com">
-				<i class="fa-regular fa-envelope" style="color: #ffffff;"></i>
-			</a>
+<body> 
+	<div class="header">
+		<div class="content1">
+			<nav>
+				<img src="logo.png" width="45px;" class="logo">
+				<ul id="sidemenu">
+					<li><a href="#">HOME</a></li>
+					<li><a href="#about">ABOUT</a></li>
+					<li><a href="#project">PROJECT</a></li>
+					<li><a href="#contact">CONTACT</a></li>
+					<i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+				</ul>
+				<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+			</nav>
+			<br>
+		
+			<div class="header-text">
+				<h1>WELCOME TO <br>PROJECT WEBSITE</h1>
+				<p>Web ini hanya sekedar tugas akhir yang diberikan oleh pembimbing <br>PKL dan bersifat personal </p>
+				<!-- <div>
+					<button>GET STARTED</button>
+				</div> -->
+			</div>
 		</div>
-		<div class="box1">
-			 <h2>FITRI</h2>
-			 <hr>
-			<p>teknik komputer jaringan</p>
-			 <a href="https://instagram.com/fftrnii_?igshid=MzRlODBiNWFlZA==">
-			 	<i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
-			 </a>
-			<a href="mailto:fitrioktaviani1013@gmail.com">
-				<i class="fa-regular fa-envelope" style="color: #ffffff;"></i>
-			</a>
+	</div>
+
+
+	<!-- about us -->
+
+	<div class="about" id="about">
+		<div class="teks">
+			<h2>ABOUT US</h2>
 		</div>
-		<div class="box2">
-			 <h3>SYAHDAN</h3>
-			 <hr> 
-			<ul>multimedia</ul>
-			<a href="https://instagram.com/syahdann22?igshid=MzRlODBiNWFlZA==">
-				<i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+		<div class="content2">
+			<a href="./about me.html#rehan">
+			<div class="card">
+				<div class="imgbox">
+					<img src="rayhan.jpg" class="rayhan" width="65%;">
+				</div>
+
+				<div class="uper">
+					<div class="nama"><b>Rayhan</b></div>
+				</div>
+
+				<div class="lower">
+					<div class="post">MULTIMEDIA</div>
+				</div>	
+			</div>
 			</a>
-			<a href="mailto:sasadan702@gmail.com">
-				<i class="fa-regular fa-envelope" style="color: #ffffff;"></i>
+
+			<a href="./about me.html#fitri">
+			<div class="card">
+				<div class="imgbox">
+					<img src="fitri.jpg" class="fitri" width="65%;">
+				</div>
+
+				<div class="uper">
+					<div class="nama"><b>Fitri</b></div>
+				</div>
+
+				<div class="lower">
+					<div class="post">TEKNIK KOMPUTER JARINGAN</div>
+				</div>	
+			</div>
 			</a>
-		</div>
-		<div class="box3">
-		    <h3>FILZDAH</h3>
-		    <hr>
-			<p>teknik komputer jaringan</p>
-			<a href="https://instagram.com/dizah_affh?igshid=MzRlODBiNWFlZA==">
-				<i class="fa-brands fa-instagram" style="color: #ffffff;" target="_blank"></i>
+			<a href="./about me.html#syahdan">
+			<div class="card">
+				<div class="imgbox">
+					<img src="syahdan.jpg" width="65%;">
+				</div>
+
+				<div class="uper">
+					<div class="nama"><b>Syahdan</b></div>
+				</div>
+
+				<div class="lower">
+					<div class="post">MULTIMEDIA</div>
+				</div>	
+			</div>
 			</a>
-			<a href="mailto:dizah.affh@gmail.com">
-				<i class="fa-regular fa-envelope" style="color: #ffffff;"></i>
+			<a href="./about me.html#filza">
+			<div class="card">
+				<div class="imgbox">
+					<img src="filza.jpg" width="65%;">
+				</div>
+
+				<div class="uper">
+					<div class="nama"><b>Filzdah</b></div>
+				</div>
+
+				<div class="lower">
+					<div class="post">TEKNIK KOMPUTER JARINGAN</div>
+				</div>	
+			</div>
 			</a>
 		</div>
 	</div>
 
 
+	<!-- project -->
 
-
- 	<div class="awal">
+	<div class="awal" id="project">
  		<div class="anak1">
 		<h4>OUR PROJECT</h4>
 	<p>project yang kami kerjakan sewaktu PKL</p>
@@ -145,8 +196,69 @@
     </div>
 	</div>
 	</div>
+
+	<!-- contact -->
+	<div class="awal2" id="contact">
+    <h4>CONTACT</h4>
+    <hr>
+    </div>
+	<div class="contrainer">
+		<div class="box">
+			<h3>RAYHAN</h3>
+			<hr>
+			<ul>multimedia</ul>
+			<a href="https://instagram.com/ahmad_ryan02?igshid=MzRlODBiNWFlZA==">
+				<i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+			</a>
+			<a href="mailto:rayhanbudiantara@gmail.com">
+				<i class="fa-regular fa-envelope" style="color: #ffffff;"></i>
+			</a>
+		</div>
+		<div class="box1">
+			 <h2>FITRI</h2>
+			 <hr>
+			<p>teknik komputer jaringan</p>
+			 <a href="https://instagram.com/fftrnii_?igshid=MzRlODBiNWFlZA==">
+			 	<i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+			 </a>
+			<a href="mailto:fitrioktaviani1013@gmail.com">
+				<i class="fa-regular fa-envelope" style="color: #ffffff;"></i>
+			</a>
+		</div>
+		<div class="box2">
+			 <h3>SYAHDAN</h3>
+			 <hr> 
+			<ul>multimedia</ul>
+			<a href="https://instagram.com/syahdann22?igshid=MzRlODBiNWFlZA==">
+				<i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+			</a>
+			<a href="mailto:sasadan702@gmail.com">
+				<i class="fa-regular fa-envelope" style="color: #ffffff;"></i>
+			</a>
+		</div>
+		<div class="box3">
+		    <h3>FILZDAH</h3>
+		    <hr>
+			<p>teknik komputer jaringan</p>
+			<a href="https://instagram.com/dizah_affh?igshid=MzRlODBiNWFlZA==">
+				<i class="fa-brands fa-instagram" style="color: #ffffff;" target="_blank"></i>
+			</a>
+			<a href="mailto:dizah.affh@gmail.com">
+				<i class="fa-regular fa-envelope" style="color: #ffffff;"></i>
+			</a>
+		</div>
+	</div>
 	<script src="https://kit.fontawesome.com/0ba6cce1e3.js" crossorigin="anonymous"></script>
-	<script type="text/javascript">
+	<script type="text/javascript" defer>
+		var sidemenu = document.getElementById("sidemenu");
+
+		function openmenu(){
+			sidemenu.style.transform ="translateX(0)";
+		}
+
+		function closemenu(){
+			sidemenu.style.transform ="translateX(100%)";
+		}
 		const tombolRayhan = document.querySelector('.tombolRayhan');
 		const tombolSyahdan=document.querySelector('.tombolSyahdan');
 		const tombolFilzdah=document.querySelector('.tombolFilzdah');
